@@ -4,9 +4,9 @@ A Streamlit dashboard that monitors the Vanguard FTSE All-World UCITS ETF (VWCE.
 
 ## Overview
 
-The dashboard is meant for medium-to-long-term investors who invest savings once a month or so. The main graph shows daily prices over a period of several years, along with a 50 day smoothed average.
+The dashboard is meant for medium-to-long-term investors who invest savings once a month or so. The main graph shows daily prices over a period of several years, along with a 200 day smoothed average.
 
-The most interesting part is the health score, a single number (0–100) that summarizes investment health at a glance. It is meant to reflect the medium-term health of the ticker, without giving much weight to brief fluctuations. At first we put a bunch of complex indicators: moving averages (50, 200 day), momentum across multiple timeframes, Sharpe ratio... Then we threw most of them out leaving only a few percentages:
+The most interesting part is the health score, a single number (0–100) that summarizes investment health at a glance. It is meant to reflect the medium-term health of the ticker, without giving much weight to brief fluctuations. At first we put a bunch of complex indicators: moving averages (200 day), momentum across multiple timeframes, Sharpe ratio... Then we threw most of them out leaving only a few percentages:
 
 - 5-year return
 - Last year's return
